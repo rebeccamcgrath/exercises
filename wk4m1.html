@@ -1,0 +1,28 @@
+<script type="text/javascript">
+
+var tripler = function(num){
+  return num*3;
+  }
+
+var tripled = tripler(5);
+
+var multiplier = function(num, num2){
+  return num * num2;
+  }
+
+var multiplied = multiplier(tripled, 12);
+
+var divider = function(num, num2) {
+  return num/num2;
+  }
+
+var divided = divider(multiplied, 2);
+
+var remainder = function(num, num2) {
+  return num % num2;
+  }
+
+var remained = remainder(divided, 3);
+
+console.log(remained);
+</script>
